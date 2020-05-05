@@ -1,0 +1,143 @@
+/*==== global ====*/
+
+body {
+	min-width: 1124px;
+	margin: 0;
+	padding: 0;
+}
+
+.position-center {
+	height: 100%;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.position-block {
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+/*==== header ====*/
+
+header {
+	height: 82px;
+}
+
+.position-login {
+	float: right;
+	padding-top: 10px;
+}
+
+.position-login-table td {
+	padding: 0 0 4px 14px;
+}
+/*===== middle =====*/
+
+.position-middle {
+	height: 500px;
+}
+
+.position-middle-main {
+	padding-top: 30px;
+}
+
+aside > div {
+	padding-left: 100px;
+}
+
+aside h2 {
+	padding-bottom: 10px;
+}
+
+aside h2 + div {
+	padding-bottom: 20px;
+}
+
+aside input {
+	padding: 8px 10px !important;
+	width: 375px;
+}
+
+aside form :first-child input {
+	width: 172px;
+}
+
+.aside-middle div[class ="text-level-4"] {
+	padding: 10px 10px 10px 0;
+}
+
+.component-aside-btn {
+	margin-bottom: 20px;
+}
+
+.aside-footer {
+    padding-top: 15px;
+}
+
+.languages {
+	padding-top: 20px;
+}
+
+.footer-list {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-list li {
+	float: left;
+	margin-right: 15px;
+	list-style: none;
+}
+
+footer {
+	padding-top: 10px;
+	background-color: white;
+	margin-top: 100px;
+	height: 200px;
+}
+
+section h2 {
+	padding-bottom: 20px;
+}
+
+.languages, .options {
+	position: relative;
+	margin-top: 50px;
+}
+
+.section-top > div {
+    background-position: 0 -58px;
+}
+
+.section-middle > div {
+	background-position: 0 -116px;
+}
+
+.section-bottom > div {
+	background-position: 0 0;
+}
+
+.section-top, .section-middle, .section-bottom {
+	display:inline-block;
+	padding-top: 20px;
+}
+
+.section-top > span, .section-middle > span, .section-bottom > span {
+	float: right;
+	position: relative;
+    padding: 14px 0 0 14px;
+}
+
+@media only screen and (max-width: 1444px) {
+  .position-center {
+  	width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1266px) {
+  .position-center {
+  	width: 90%;
+  }
+}

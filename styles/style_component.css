@@ -1,0 +1,66 @@
+.component-logo {
+	padding-top: 30px;
+}
+
+.component-logo span {
+	display: inline-block;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 210px;
+    background-position: -17px -88px;
+    height: 35px;
+    width: 175px;
+}
+
+header [type = "text"], [type = "password"] {
+    margin: 0;
+    width: 142px;
+}
+
+.component-input, aside select, aside input[type = "text"] {
+	border: 1px solid #ccd0d5;
+	padding: 3px;
+}
+
+aside input {
+	border-radius: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.component-button {
+	border-radius: 2px;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+aside select {
+	padding: 5px;
+}
+
+.component-question {
+	display: inline;
+	border-radius: 50%;
+	padding:1px 5px;
+}
+
+aside input[type|="radio"] {
+	margin-top: 5px;
+	width: 20px !important;
+}
+
+.component-aside-btn {
+	cursor: pointer;
+	border-radius: 5px;
+	border: 1px solid #578843;
+	padding: 7px 20px;
+	width: 194px;
+}
+
+.section-top > div, .section-middle > div, .section-bottom > div {
+	background-image: url(../images/icon2.png);
+	float: left;
+	width: 56px;
+    height: 55px;
+}
